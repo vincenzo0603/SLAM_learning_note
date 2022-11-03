@@ -30,7 +30,72 @@ Markov assumption
 
 Law of total probability
 
-## Recursive Bayes Filter 1,2,3,4 **参考**
+
+
+## Recursive Bayes Filter 5
+
+![](img/bayes5.png)
+
+
+## Recursive Bayes Filter 6
+
+![](img/bayes6.png)
+
+
+
+## Recursive Bayes Filter 7
+
+
+![](img/bayes7.png)
+
+
+## Motion and Obseration Model
+
+
+
+
+
+- Prediction and Correction Step
+
+
+![](img/prediction_correction.png)
+
+
+
+
+- Motion and Obseration Model
+
+
+![](img/motion_observation.png)
+
+
+## Different Realizations
+
+
+![](img/different_realizations.png)
+
+
+
+## In This Course
+![](img/inthiscourse.png)
+
+
+
+
+
+
+
+
+# Motion Model
+
+-
+-
+-
+
+
+
+
+# Recursive Bayes Filter 1-7 **参考**
 
 - 回顾贝叶斯公式：
 - 1. $p(A | B) = \frac{p(AB)}{p(B)}$
