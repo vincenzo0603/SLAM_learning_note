@@ -90,7 +90,118 @@ Law of total probability
 
 -
 -
+
+## Robot Motion Models
+
+![](img/motion_model.png)
+
+
+- Robot motion is inherently uncertain
+- How can we model this uncertainty?
+
+
+## Probabilistic Motion Models
+- Specifies a posterior probability that action u carries the robot form x to x'
+
+$$
+p(x_t | u_t, x_{t-1})
+$$
+
+## Typical Motion Model
 -
+![](img/typocal_motion_models.png)
+
+### Odometry Model
+- 
+
+![](img/odometry_model.png)
+
+- 
+
+
+
+### Velocity Model
+- $u = (u,w)^T$
+- translational velocity
+- rotational velocity
+![](img/velocity_based_model.png)
+
+
+![](img/motion_equation.png)
+
+- - w 不等于0
+- - 可以在很小的时间间隔内看作是圆形运动
+
+
+
+
+### Probability Distribution
+- 
+
+![](img/probability_distribution.png)
+
+- 
+
+different noise parameters get different distributions
+![](img/examples.png)
+
+#### Problem of the Velocity-Based Model
+- Robot moves on a circle.
+- The circle constrains the final orientation.
+- Fix: introduce an additional noise term on the oritentation.
+
+
+
+
+
+
+
+
+
+
+# Sensor Model
+- 
+![](img/sensor_model.png)
+
+## Model for Laser Scanners
+- 
+
+![](img/laserScannerModel.png)
+
+
+## Beam-Endpoint Model
+- 
+
+![](img/beam_endpoint_model.png)
+
+
+## Ray-Cast Model
+
+- exponential decay(指数衰减) : allow us to cover dynamtic obstacles
+
+
+
+![](img/ray_cast_model.png)
+
+
+
+
+
+
+## Model for Perceiving Landmarkers with Range-Bearing Sensors
+- $Q_t $ 是噪声项
+
+![](img/model_for.png)
+
+
+
+
+
+# Summary
+- 
+
+![](img/summary.png)
+
 
 
 
